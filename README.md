@@ -1,1 +1,1 @@
-# qa-auto-bootcamp
+# qa-auto-bootcamp-github
