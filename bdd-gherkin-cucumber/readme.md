@@ -1,11 +1,11 @@
 ## Homework 01
 ### Practice Gherkins
 Create a set of scenarios for the following training examples:
-https://the-internet.herokuapp.com/login
-https://the-internet.herokuapp.com/add_remove_elements/
-https://the-internet.herokuapp.com/checkboxes
-https://the-internet.herokuapp.com/key_presses 
-https://the-internet.herokuapp.com/status_codes
+- https://the-internet.herokuapp.com/login
+- https://the-internet.herokuapp.com/add_remove_elements/
+- https://the-internet.herokuapp.com/checkboxes
+- https://the-internet.herokuapp.com/key_presses 
+- https://the-internet.herokuapp.com/status_codes
 
 ### Homework requirements
 - create files with `.feature` extension
@@ -19,12 +19,7 @@ https://the-internet.herokuapp.com/status_codes
 
 ### Task description
 The second homework is directly connected to your Homework 01. You will need to implement the steps for your Gherkins.
-You will use the same training examples to exercise steps implementation:
-https://the-internet.herokuapp.com/login
-https://the-internet.herokuapp.com/add_remove_elements/
-https://the-internet.herokuapp.com/checkboxes
-https://the-internet.herokuapp.com/key_presses
-https://the-internet.herokuapp.com/status_codes
+You will use the same training examples to exercise steps implementation.
 
 ### Homework requirements
 1. You will need to repeat the steps of the framework set up that we did during the Workshop. Make it locally on your laptop, without using Vagrant.
