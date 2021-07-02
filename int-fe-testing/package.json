@@ -1,0 +1,14 @@
+{
+  "name": "int-fe-testing",
+  "version": "1.0.0",
+  "description": "This is the first example for writing unit and integration tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "ltidena",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
