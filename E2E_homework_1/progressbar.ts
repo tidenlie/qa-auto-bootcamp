@@ -13,14 +13,16 @@ When("User clicks on Start button", () => {
 
 
 When('User waits till progress bar has reached 75%', () => {
-  browser.waitUntil(
-    () => $('#progressBar').getText() === '75%',
-    {
-        timeout: 30000,
-        interval: 1,
-        timeoutMsg: 'Time is money. Sorry.'
-    }
-);
+  $('[aria-valuenow="75"]').waitForDisplayed({timeout:30000, timeoutMsg: "Time is money", interval:1})
+  //OR
+  //   browser.waitUntil(
+//     () => $('#progressBar').getText() === '75%',
+//     {
+//         timeout: 30000,
+//         interval: 1,
+//         timeoutMsg: 'Time is money. Sorry.'
+//     }
+// );
 });
 
 
