@@ -1,3 +1,5 @@
+import { Given, When, Then } from '@cucumber/cucumber';
+
 Given("Dynamic table page is opened", () => {
     browser.url(`http://www.uitestingplayground.com/dynamictable`);
 });
@@ -15,7 +17,11 @@ Then("Chrome CPU value in table is equal with orange one", () => {
     //from them chose the right child or column: [columns_before_CPU + 1]
     //get text from it with getText()
     const CPU_from_table = $(`//span[contains(text(), 'Chrome')]/../*[${columns_before_CPU + 1}]`).getText();
+
+    //OR search % (not so good because % can be removed)
+    //const CPU_from_table = $(`//span[text()='Chrome']/../span[contains(.,'%')]`).getText();
     expect ($('p.bg-warning')).toHaveText(`Chrome CPU: ${CPU_from_table}`);
+    
 });
 
 //In short
