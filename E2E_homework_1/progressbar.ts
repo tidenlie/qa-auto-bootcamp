@@ -26,7 +26,7 @@ When('User waits till progress bar has reached 75%', () => {
 });
 
 
-Then ("User clicks on Stop button", () => {
+Then ("User clicks on Stop button and result is 0", () => {
   $("#stopButton").click();
   expect($('#result')).toHaveTextContaining('Result: 0');
  });
