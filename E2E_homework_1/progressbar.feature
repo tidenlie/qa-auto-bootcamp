@@ -5,4 +5,4 @@ Feature: Progress bar homework
     Given User is on the progress bar page
     When User clicks on Start button
     And User waits till progress bar has reached 75%
-    Then User clicks on Stop button
+    Then User clicks on Stop button and result is o
